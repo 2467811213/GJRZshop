@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<!--作者：卢伟-->
+	<head lang="zh-CH">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1" />
+		<title>个人中心</title>
+		<!--外链样式-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/conmonStyle.css" />
+		<link rel="stylesheet" href="css/style_Luwei.css"/>
+		<!--外链动作-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/JS_luwei.js" ></script>
+	</head>
+
+	<body>
+		<!--布局设计-->
+		<!--个人中心-->
+		<div class="container-fluid">
+			<!--标题栏-->
+			<div class="row secondTitleBox">
+				<div class="col-xs-2">	
+					<a href="wode.html"><!--跳转至 我的-->
+						<img src="img/u34.svg" >
+					</a>
+				</div>
+				<div class="col-xs-8 secondTitle"><span class="text-left">个人中心</span></div>
+				<div class="col-xs-2"></div>
+			</div>
+			
+			<!--账户栏-->
+				<div class="row user partContainner">
+					<div class="col-xs-4 clearPaddingRight">
+						<p>
+							<span class="inlineBlockShow fontIcon"></span>
+							<img class="inlineBlockHide userPic" src="img/QQ图片20171017143652.png">
+						</p>
+					</div>
+					<div class="col-xs-4 text-left middle clearPadding">
+						<p class="fontFWS color153"><span>个人主页</span></p>
+					</div>
+					
+					<div class="col-xs-4 middle">
+						<p class="text-right">
+							<a href="##"><!--跳转至 个人主页的首页-->
+								<span class="fontFWS color153 fontSize12">进入</span>
+								<img src="img/u13.svg">
+							</a>
+						</p>
+					</div>
+				</div>
+			<!--个人专栏-->
+			  	<div class="row partContainner listMiddle marginT20">
+			  		<a href="personalInfo_page.html"><!--跳转至 个人信息-->
+			  			<div class="col-xs-6 text-left fontFWS">个人信息</div>
+			  			<div class="col-xs-2  col-xs-offset-4 text-right clearPaddingRight"><img  src="img/u13.svg"></div>
+			  		</a>
+			  	</div>
+			  	<div class="row partContainner listMiddle">
+			  		<a href="passwordChange_page.html"><!--跳转至 修改密码-->
+			  			<div class="col-xs-6 text-left fontFWS">修改密码</div>
+			  			<div class="col-xs-2 col-xs-offset-4 text-right clearPaddingRight"><img  src="img/u13.svg"></div>
+			  		</a>
+			  	</div>
+			  	<div class="row partContainner listMiddle">
+			  		<a href="phoneChange_page.html"><!--跳转至 修改手机-->
+			  			<div class="col-xs-6 text-left fontFWS">修改手机</div>
+				  		<div class="col-xs-5 col-xs-offset-1 text-right clearPaddingRight">
+				  			<span class="fontFWS color153 fontSize12">180****1849</span>
+				  			<img  src="img/u13.svg">
+				  		</div>	
+			  		</a>
+			  	</div>
+			<!--我的会员-->
+			  	<div class="row partContainner listMiddle marginTB20">
+			  		<a href="huiyuanzhongxin.html"><!--跳转至 会员中心-->
+			  			<div class="col-xs-6 text-left fontFWS" >会员中心</div>
+			  			<div class="col-xs-4 col-xs-offset-2 text-right clearPaddingRight fontFWS color153 fontSize12">普通会员<img  src="img/u13.svg"></div>
+			  		</a>
+			  	</div>
+		</div>
+		
+		<!--JS动作-->
+		<script>
+			//网页加载完毕时
+			$(function(){
+				/*
+				 * 个人主页动作
+				 */
+				//点击 个人信息 打开 个人信息 版面
+				$("#toPersonalCenter").click(function(){
+				window.location.href="personalInfo_page.html";
+				})
+				//点击 修改密码 打开 修改密码 版面
+				$("#toPasswordChange").click(function(){
+				window.window.location.href="passwordChange_page.html";
+				})
+				//点击 修改手机 打开 修改手机 版面
+				$("#toPhoneChange").click(function(){
+				window.window.location.href="phoneChange_page.html";
+				})
+			})
+		</script>
+	</body>
+
+</html>

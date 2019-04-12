@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<!--作者:卢伟-->
+	<head lang="zh-CH">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scaleble=no,initial-scale=1" />
+		<title>修改手机</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/conmonStyle.css" />
+		<link rel="stylesheet" href="css/style_Luwei.css" />
+	</head>
+	<body hotCoverState="hide">
+		<div class="container-fluid">
+			<!--修改手机标题栏-->
+			<div class="row secondTitleBox">
+				<div class="col-xs-2"><a href="personalCenter_page.html"><img src="img/u34.svg" ></a></div>
+				<div class="col-xs-8 secondTitle"><span class="text-left">修改手机</span></div>
+				<div class="col-xs-2"></div>
+			</div>
+		</div>
+		<!--进程栏-->
+		<div id="statusContainer">
+			<div id="statusContents">
+				<!--验证原号码-->
+				<div class="statusItem">
+					<!--验证头部-->
+					<div class="row partContainner clearMargin">
+						<div class="col-xs-6 clearPadding">
+							<img class="width100per statusImg " src="img/u8.png">
+							<p id="statusText" class='fontFWS fontSize12 clearMarginBottom statusTextStyle'>1.验证原号码</p>
+						</div>
+						<div class="col-xs-6 lineHeight45 fontFWS fontSize12 color153">2.绑定新手机</div>
+					</div>
+					<!--默认手机号和发送验证码-->
+					<div class="row partContainner marginT10 height45 lineHeight45 clearMargin paddingL10">
+				  		<div class="col-xs-5 text-left ">
+				  			<span>180</span>
+				  			<span>****</span>
+				  			<span>1849</span>
+				  		</div>
+				  		<div class="col-xs-4 col-xs-offset-3 clearPaddingLeft color99">
+				  			<button id="checkInfo" class="btn btn-default sendBtnStyle fontFWS fontSize12 color153">发送验证码</button>
+				  		</div>
+				  	</div>
+				  	<!--验证码输入框-->
+				  	<div class="row partContainner listMiddle height45 clearMargin">
+				  		<div class="col-xs-12 text-left">
+				  			<input id="checkInfoInput" class="inputStyle" type="text" placeholder="请输入验证码" style="border: 0;">
+				  		</div>
+				  	</div>
+				  	<!--下一步按钮-->
+				  	<div class="row marginT20 clearMargin">
+				  		<div class="col-xs-1"></div>
+				  		<div class="col-xs-10 clearPadding">
+				  			<button id="nextStepBtn" class="btn btn-success width100per height45 lineHeight45 clearPadding">下一步</button>
+				  		</div>
+				  		<div class="col-xs-1"></div>
+					</div>
+					<!--手机修改提示部分-->
+					<div class="row marginT20 clearMargin">
+						<div class="col-xs-11 col-xs-offset-1 text-left clearPaddingLeft color99 fontSize14">
+							<p class="plinedistance">
+								<span class="fontFA fontB410"> </span>
+								<span class="fontFWS">温馨提示：</span>
+							</p>
+							<p class="fontFWS plinedistance">手机号码修改成功后需要使用新的手机号码进行登录。</p>
+						</div>
+					</div>
+			</div>
+			
+			<!--绑定新手机-->
+				<div class="statusItem">
+					<!--验证头部-->
+					<div class="row partContainner clearMargin">
+						<div class="col-xs-6 clearPadding">
+							<img class="width100per statusImg " src="img/u8.png">
+							<p id="statusText" class='fontFWS fontSize12 clearMarginBottom'>1.验证原号码</p>
+						</div>
+						<div class="col-xs-6 lineHeight45 fontFWS fontSize12 statusTextStyle">2.绑定新手机</div>
+					</div>
+					<!--默认手机号和发送验证码-->
+					<div class="row partContainner marginT10 height45 lineHeight45 clearMargin paddingL10">
+				  		<div class="col-xs-8 text-left ">
+				  			<input id="phoneNumInput" class="inputStyle" type="number" placeholder="请输入手机号" style="border: 0;">
+				  		</div>
+				  		<div class="col-xs-4 clearPaddingLeft color99">
+				  			<button id="2CheckInfoBtn" class="btn btn-default sendBtnStyle fontFWS fontSize12 color153">发送验证码</button>
+				  		</div>
+				  	</div>
+				  	<!--验证码输入框-->
+				  	<div class="row partContainner listMiddle height45 clearMargin">
+				  		<div class="col-xs-12 text-left">
+				  			<input id="2CheckInfoInput" class="inputStyle" type="text" placeholder="请输入验证码" style="border: 0;">
+				  		</div>
+				  	</div>
+				  	<!--确定按钮-->
+				  	<div class="row marginT20 clearMargin">
+				  		<div class="col-xs-1"></div>
+				  		<div class="col-xs-10 clearPadding">
+				  			<button id="checkBtn" class="btn btn-success width100per height45 lineHeight45 clearPadding">确定</button>
+				  		</div>
+				  		<div class="col-xs-1"></div>
+					</div>
+					<!--手机修改提示部分-->
+					<div class="row marginT20 clearMargin">
+						<div class="col-xs-11 col-xs-offset-1 text-left clearPaddingLeft color99 fontSize14">
+							<p class="plinedistance">
+								<span class="fontFA fontB410"> </span>
+								<span class="fontFWS">温馨提示：</span>
+							</p>
+							<p class="fontFWS plinedistance">手机号码修改成功后需要使用新的手机号码进行登录。</p>
+						</div>
+					</div>
+			</div>
+			</div>
+		</div>
+		<!--热区蒙版-->
+		<div class="hotCover"></div>
+		<!--提示框-->
+		<div id="alert_phoneChange_page" class="alert alertSelfSet clearMarginBottom"></div>
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/JS_luwei.js" ></script>
+</html>

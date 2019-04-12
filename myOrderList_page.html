@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+	<!--作者：卢伟-->
+	<head lang="zh-CH">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1" />
+		<title>我的订单</title>
+		<!--外链样式-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/conmonStyle.css" />
+		<link rel="stylesheet" href="css/style_Luwei.css" />
+	</head>
+
+	<body hotCoverState="hide"checkState="hide" listState="hide">
+		<div class="fixedTop">
+			<div class="container-fluid">
+				<!--个人中心标题栏-->
+				<div class="row secondTitleBox">
+					<div class="col-xs-2">
+						<a href="wode.html"><img src="img/u34.svg"></a>
+					</div>
+					<div class="col-xs-8 secondTitle"><span class="text-left">我的订单</span></div>
+					<div class="col-xs-2"></div>
+				</div>
+			</div>
+			<!--个人导航栏-->
+			<div class="row partContainner clearMargin">
+				<div class="col-xs-12 clearPadding">
+					<ul id="myOrderListNav" class="dotClear clearPaddingLeft">
+						<li class="myOrderListNavTabStyle fontFWSS colorId_Green scrollLineSize borderColorRgba_Green">全部</li>
+						<li class="myOrderListNavTabStyle fontFWSS colorId_Grey99">待付款</li>
+						<li class="myOrderListNavTabStyle fontFWSS colorId_Grey99">待收货</li>
+						<li class="myOrderListNavTabStyle fontFWSS colorId_Grey99">已完成</li>
+						<li class="myOrderListNavTabStyle fontFWSS colorId_Grey99">已取消</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--订单栏目-->
+		<div style="height: 80px;"></div>
+		<div id="listContainerViewport">
+			<div id="listContainerPositionBox" listcontents="show">
+				<!-- 导航项 全部-->
+				<div class="ItemBox">
+					<!--头部信息-->
+					<div class="row partContainner marginT10 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-7 marginL4per clearPaddingLeft text-left colorId_Grey99">
+							<span>订单编号：</span><span>11977240</span>
+						</div>
+						<div class="col-xs-4 marginL2per text-right"><span class="colorId_Red">等待付款</span></div>
+					</div>
+					<!--订单信息-->
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<!--尾部-->
+					<div class="row partContainner marginT1 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-6 text-left footerGold clearPadding colorId_Grey99">
+							<span>应付金额：</span><span>¥180.00</span>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="listQuitBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">取消订单</div>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="inTimePayBtn btn btn-default buttonStyle colorId_Red borderColorRgba_Red clearBgColor">立即付款</div>
+						</div>
+					</div>
+					<!--尾部加载-->
+					<div class="row clearMargin marginTB20">
+						<div class="col-xs-12">
+							<p><img src="img/u3.svg" style="width: 30px;height: 30px;"></p>
+							<p class="colorId_GreyCC"><span>正在加载更多</span></p>
+						</div>
+					</div>
+				</div>
+				<!-- 导航项 待付款 -->
+				<div class="ItemBox">
+					<!--头部信息-->
+					<div class="row partContainner marginT10 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-7 marginL4per clearPaddingLeft text-left colorId_Grey99">
+							<span>订单编号：</span><span>11977240</span>
+						</div>
+						<div class="col-xs-4 marginL2per text-right"><span class="colorId_Red">等待付款</span></div>
+					</div>
+					<!--订单信息-->
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<!--尾部-->
+					<div class="row partContainner marginT1 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-6 text-left footerGold clearPadding colorId_Grey99">
+							<span>应付金额：</span><span>¥180.00</span>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="listQuitBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">取消订单</div>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="inTimePayBtn btn btn-default buttonStyle colorId_Red borderColorRgba_Red clearBgColor">立即付款</div>
+						</div>
+					</div>
+				</div>
+				<!-- 导航项 待收货 -->
+				<div class="ItemBox">
+					<!--头部信息-->
+					<div class="row partContainner marginT10 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-7 marginL4per clearPaddingLeft text-left colorId_Grey99">
+							<span>订单编号：</span><span>11977240</span>
+						</div>
+						<div class="col-xs-4 marginL2per text-right"><span class="colorId_Red">等待付款</span></div>
+					</div>
+					<!--订单信息-->
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<!--尾部-->
+					<div class="row partContainner marginT1 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-6 text-left footerGold clearPadding colorId_Grey99">
+							<span>应付金额：</span><span>¥180.00</span>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="checkGoodsAddressBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">查看物流</div>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="checkGoodsArrivedBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">确认收货</div>
+						</div>
+					</div>
+				</div>
+				<!-- 导航项  已完成-->
+				<div class="ItemBox">
+					<!--头部信息-->
+					<div class="row partContainner marginT10 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-7 marginL4per clearPaddingLeft text-left colorId_Grey99">
+							<span>订单编号：</span><span>11977240</span>
+						</div>
+						<div class="col-xs-4 marginL2per text-right"><span class="colorId_Red">等待付款</span></div>
+					</div>
+					<!--订单信息-->
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<!--尾部-->
+					<div class="row partContainner marginT1 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-6 text-left footerGold clearPadding colorId_Grey99">
+							<span>应付金额：</span><span>¥180.00</span>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="checkJudgmentBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">查看评价</div>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="buyAgainBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">再次购买</div>
+						</div>
+					</div>
+				</div>
+				<!-- 导航项 已取消 -->
+				<div class="ItemBox">
+					<!--头部信息-->
+					<div class="row partContainner marginT10 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-7 marginL4per clearPaddingLeft text-left colorId_Grey99">
+							<span>订单编号：</span><span>11977240</span>
+						</div>
+						<div class="col-xs-4 marginL2per text-right"><span class="colorId_Red">交易关闭</span></div>
+					</div>
+					<!--订单信息-->
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="row partContainner clearMargin bodyInfoStyle">
+						<a href="shangpinxiangqing.html">
+							<div class="col-xs-3 marginL4per clearPaddingLeft"><img class="goodsImgStyle" src="img/3.jpg"></div>
+							<div class="col-xs-6 clearPaddingLeft marginL2per text-left bodyInfoTextPart">
+								<p class='pPaddingBottom colorId_Grey66' style="margin-bottom: 4px;">银色星芒刺绣网纱底裤</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">肤色/M</p>
+								<p class='pPaddingBottom colorId_GreyCC' style="margin-bottom: 4px;">¥99</p>
+							</div>
+							<div class="col-xs-2  text-right ">
+								<p class='jzhong colorId_Green'><span>x</span><span>1</span></p>
+							</div>
+						</a>
+					</div>
+					<!--尾部-->
+					<div class="row partContainner marginT1 clearMargin headAndFootInfoStyle_myOrderList">
+						<div class="col-xs-6 text-left footerGold clearPadding colorId_Grey99">
+							<span>应付金额：</span><span>¥180.00</span>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="repeatBuyBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">重新购买</div>
+						</div>
+						<div class="col-xs-3 clearPadding buttonBoxStyle">
+							<div class="delectListBtn btn btn-default buttonStyle colorId_Grey99 borderColorRgba_Grey">删除订单</div>
+						</div>
+					</div>
+				</div>
+				<!--无订单-->
+				<div class="nolist clearfloat">
+					<p><img src="img/u228.svg"></p>
+					<p class="colorId_Grey99 fontSize16 fontFWS">暂无相关的订单记录</p>
+				</div>
+			</div>
+		</div>
+		<!--热区蒙版-->
+		<div class="hotCover hotCoverColor"></div>
+		<!--信息提示框-->
+			<!--取消订单操作面板-->
+		<div class="container-fluid alert_listQuitBox">
+				<div class="row height45 lineHeight45 partContainner ">
+					<div class="col-xs-4"></div>
+					<div class="col-xs-4 fontFWS fontB410 colorId_Grey66">取消订单</div>
+					<div id="closeListQuitBtn" class="col-xs-4 text-right"><img src="img/u258.svg"></div>
+				</div>
+				<div class="row marginT10">
+					<div class="col-xs-10 text-left colorId_Grey66"><p>取消订单后，本单享有的优惠可能会一并取消，是否继续？</p></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8 text-left colorId_Grey99">
+						<p>请选择取消订单的原因（必选）：</p>
+						<ul class="dotClear clearPaddingLeft">
+							<li ><span class="selectItem sexCircle fontFA colorFFF bgColorGreen"></span><span class="paddingL10">配送信息有误</span></li>
+							<li><span class="selectItem sexCircle fontFA colorFFF"></span><span class="paddingL10">发票信息有误</span></li>
+							<li><span class="selectItem sexCircle fontFA colorFFF"></span><span class="paddingL10">忘记使用优惠券、优币</span></li>
+							<li><span class="selectItem sexCircle fontFA colorFFF"></span><span class="paddingL10">商品买错了</span></li>
+							<li><span class="selectItem sexCircle fontFA colorFFF"></span><span class="paddingL10">重复下单/误下单</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row height45 lineHeight45 partContainner ">
+					<div class="col-xs-4"></div>
+					<div id="listQuitCheckBtn" class="col-xs-4 fontFWS fontB410 colorId_Red">确定</div>
+					<div class="col-xs-4"></div>
+				</div>
+		</div>
+		<!--提示已取消-->
+		<div id="alertBox2" class='alertSelfSet2'></div>
+		<!--确认收货提示框-->
+		<div class="checkGoodsArrivedInfoBox partContainner fontFWS">
+			<div class="row clearMargin borderBottom">
+				<div class="col-xs-12 fontB410 height91 lineHeight91 delectAlert">是否确认收货？</div>
+			</div>
+			<div class="row clearMargin">
+				<div id="quitGoodsArrivedBtn" class="col-xs-6 height45 lineHeight45 ">取消</div>
+				<div id="checkGoodsArrivedBtn" class="col-xs-6 height45 lineHeight45 borderLeft colorId_Green ">确认</div>
+			</div>
+		</div>
+		<button id="jk">新建一个</button>
+	</body>
+	<!--外链动作-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/JS_luwei.js"></script>
+	<script></script>
+</html>

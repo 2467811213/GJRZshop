@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<!--作者：卢伟-->
+	<head lang="zh-CH">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1" />
+		<title>订单详情</title>
+		<!--外链样式-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/conmonStyle.css" />
+		<link rel="stylesheet" href="css/style_Luwei.css"/>
+		<!--外链动作-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/JS_luwei.js" ></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--个人中心标题栏-->
+			<div class="row secondTitleBox">
+				<div class="col-xs-2"><img src="img/u34.svg" ></div>
+				<div class="col-xs-8 secondTitle"><span class="text-left">订单跟踪</span></div>
+				<div class="col-xs-2"></div>
+			</div>
+			<!---->
+			<div class="row headBoxBg_followimgPage headBoxBorder_followimgPage boxHeight113_followingPage paddingT10_followingPage" >
+				<div class="col-xs-3 col-xs-offset-1 clearPaddingLeft">
+					<div class="goodBox_followingPage goodBoxBg_followingPage ">
+						<img class="goodImg_followingPage" src="img/QQ图片20171017143652.png ">
+						<p class="goodTextBoxBg_followingPage clearMargin">
+							<span class="fontFWS fontsize12 fontIdcolorWhiteFF_followimgPage">2件商品</span>
+						</p>
+					</div>
+				</div>
+				<div class="col-xs-8 text-left fontIdcolorWhiteFF_followimgPage">
+					<p><span class="fontFW_followimgPage ">配送企业：</span><span>顺丰快递</span></p>
+					<p><span class="fontFW_followimgPage ">快递单号：</span><span>2765302256</span></p>
+					<p><span class="fontFW_followimgPage ">联系电话：</span><span>95338</span></p>
+				</div>
+			</div>
+		</div>
+		<!--物流进度-->
+		<div logisiticsBgState="sendOuting" logisiticsTextState="sendOuting" class="row boxHeight112_followingPage clearMargin logisiticsContainer_followingPage">
+			<!--状态：已发货-->
+				<div class="logisiticsStateBox_followingPage">
+					<ul class="dotClear fontFWS fontsize12 ulPaddingL_followingPage">
+						<li class="liHeight_followingPage liMarginB3_followingPage">
+							<img id="sent_bg" class="logisiticsStateImg" src="img/u24.png"> 
+							<p id="sent_text" class="clearMarginBottom pMargintop-14_followingPage fontIdcolorGreyCC_followimgPage"><span>已发货</span></p>
+						</li>
+						<li class='liMarginB3_followingPage'><img src="img/u12.png"</li>
+						<li class="fontIdcolorGrey99_followimgPage">北京市</li>
+					</ul>
+				</div>
+			<!--状态：运输中-->
+				<div class="logisiticsStateBox_followingPage">
+					<ul class="dotClear clearPaddingLeft fontFWS fontsize12">
+						<li class="liHeight_followingPage liMarginB3_followingPage">
+							<img id="transporting_bg" class="logisiticsStateImg"  src="img/u24.png"> 
+							<p id="transporting_text" class="clearMarginBottom pMargintop-14_followingPage fontIdcolorGreyCC_followimgPage"><span>运输中</span></p>
+						</li>
+						<li class='liMarginB3_followingPage'><img src="img/u12.png"</li>
+					</ul>
+				</div>
+			<!--状态：派件中-->
+				<div class="logisiticsStateBox_followingPage">
+					<ul class="dotClear clearPaddingLeft fontFWS fontsize12">
+						<li class="liHeight_followingPage liMarginB3_followingPage">
+							<img id="sendOuting_bg" class="logisiticsStateImg"  src="img/u24.png"> 
+							<p id="sendOuting_text" class="clearMarginBottom pMargintop-14_followingPage fontIdcolorGreyCC_followimgPage"><span>派件中</span></p>
+						</li>
+						<li class='liMarginB3_followingPage'><img src="img/u20.png"</li>
+					</ul>
+				</div>
+			<!--状态:已签收-->
+				<div class="logisiticsStateBox_followingPage">
+					<ul class="dotClear clearPaddingLeft ulPaddingR_followingPage fontFWS fontsize12">
+						<li class="liHeight_followingPage liMarginB3_followingPage">
+							<img id="checked_bg" class="logisiticsStateImg"  src="img/u24.png"> 
+							<p id="checked_text" class="clearMarginBottom pMargintop-14_followingPage fontIdcolorGreyCC_followimgPage"><span>已签收</span></p>
+						</li>
+						<li class='liMarginB3_followingPage'><img src="img/u12.png"</li>
+						<li class="fontIdcolorGrey99_followimgPage">长沙市</li>
+					</ul>
+				</div>
+		</div>
+		<!---->
+		<div class="row partContainner marginT20 clearMargin headAndFootInfoStyle_myOrderList">
+			<div class="col-xs-7 marginL4per clearPaddingLeft text-left color153">
+				<span>物流详情</span>
+			</div>
+		</div>
+		<div class="row partContainner clearMargin">
+				<div class="col-xs-11 marginL4per clearPaddingLeft text-left marginT10">
+					<ul class="ul_logisiticsDetails" style="background-image: url(img/u36.png);">
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">订单已签收，期待再次为您服务</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">到达目的地网点湖南长沙公司，快件将很快进行派送</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">在湖南长沙公司进行发出扫描</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">在分拨中心湖南长沙公司进行卸车扫描</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">在北京市进行下级地点扫描</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">订单付款成功</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+						<li style="list-style-image: url(img/u40.png);">
+							<p class="clearMarginBottom">订单已提交，等待付款</p>
+							<p class="fontFWS fontB410 fontIdcolorGreyCC_followimgPage">2017-04-01 12:00:00 </p>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</body>
+</html>
