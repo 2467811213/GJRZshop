@@ -1,0 +1,10 @@
+[
+	{"name":"temo","no":"提莫","age":8,"img":"img/Teemo.png"},
+	{"name":"anni","no":"安妮","age":7,"img":"img/Annie.png"},
+	{"name":"jiansheng","no":"剑圣","age":6,"img":"img/MasterYi.png"},
+	{"name":"jianmo","no":"剑魔","age":5,"img":"img/Aatrox.png"},
+	{"name":"jianhao","no":"剑豪","age":4,"img":"img/Yasuo.png"},
+	{"name":"pansen","no":"潘森","age":3,"img":"img/Pantheon.png"},
+	{"name":"guafu","no":"寡妇","age":2,"img":"img/Evelynn.png"},
+	{"name":"kazike","no":"螳螂","age":1,"img":"img/Khazix.png"}
+]
