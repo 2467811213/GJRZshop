@@ -1,0 +1,320 @@
+/*
+ * 统一样式
+ */
+/*网页背景*/
+html body{
+	font-family: 'Arial Normal', 'Arial';
+	font-size: 14px;
+	color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(249, 249, 249, 1);
+}
+a:hover, a:visited, a:link, a:active {
+   text-decoration: none;
+   color: #666666;
+}
+ /*二级标题栏*/
+ 
+/*统一 图片规格 20x20px*/
+.secondTitleBox img{
+	width: 20px;
+	height:20px;
+}
+/*定义 二级标题 高度*/
+.secondTitleBox{
+	height: 45px;
+	line-height: 45px;
+}
+/*统一 标题文本 样式*/
+.secondTitleBox .secondTitle{
+	font-family: '微软雅黑 Bold', '微软雅黑 Regular',微软雅黑;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #999999;
+    height: 45px;
+	line-height: 45px;
+}
+/*
+ * 全局样式
+ */
+/*区块容器*/
+.partContainner{
+	background-color: rgba(255,255,255,1);
+	border: 1px solid;
+	border-color: rgba(242, 242, 242, 1);
+}
+/*显示*/
+/*块元素显示*/
+.blockShow{
+	display: block!important;
+}
+/*行块显示*/
+.inlineBlockShow{
+	display: inline-block!important;
+}
+/*行内显示*/
+.inlineShow{
+	display: inline!important;
+}
+/*隐藏*/
+.blockHide,
+.inlineBlockHide,
+.inlineHide{
+	display: none!important;
+}
+
+/*
+ * 文本样式
+ */
+.fontFWS{
+	font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+}
+.fontFA{
+	font-family: "FontAwesome";
+}
+/*粗体样式*/
+.fontB410{
+	font-weight: 410;
+}
+/*字体颜色*/
+.color153{
+	color: rgb(153, 153, 153);
+}
+.titleNavColor{
+	color: #1ABC9C;
+}
+.color99{
+	color: #999999;
+}
+.colorFFF{
+	color: #FFFFFF;
+}
+.colorCCC{
+	color: #CCCCCC;
+}
+.colorId_yellow{
+	color: #FF5918;
+}
+/*字体大小 样式*/
+.fontSize12{
+	font-size: 12px;
+}
+.fontSize14{
+	font-size:14px;
+}
+.fontSize18{
+	font-size: 18px;
+}
+.fontSize20{
+	font-size: 20px;
+}
+/*背景色*/
+.bgColorGreen{
+	background-color: #1ABC9C;
+}
+
+/*默认字体头像 样式*/
+.fontIcon{
+	font-family: 'FontAwesome';
+    font-weight: 410;
+    font-style: normal;
+    font-size: 72px;
+    color: #CCCCCC;
+}
+/*头像图片 样式*/
+.userPic{
+	width: 72px;
+	height: 100%;
+	border:1px solid ;
+	border-radius: 50%;
+}
+/*清除边距*/
+.clearPadding{
+	padding: 0;
+}
+.clearMargin{
+	margin:0;
+}
+.clearPaddingLeft{
+	padding-left: 0;
+}
+.clearPaddingRight{
+	padding-right: 0;
+}
+.clearMarginBottom{
+	margin-bottom: 0;
+}
+/*清除浮动*/
+.clearfloat{
+	clear: both;
+}
+/*添加边距*/
+.marginTB20{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.marginT20{
+	margin-top: 20px;
+}
+.marginT10{
+	margin-top: 10px;
+}
+.marginT2{
+	margin-top: 1px;
+}
+.paddingL10{
+	padding-left: 10px;
+}
+.marginB10{
+	margin-bottom: 10px;
+}
+/*高度定义*/
+.height45{
+	height: 45px;
+}
+.height40{
+	height: 40px;
+}
+/*文本输入框 样式*/
+.inputStyle{
+	width: 100%;
+	outline: none;
+	height: 23px;
+}
+/*清除有序无序列表*/
+.dotClear{
+	list-style: none;
+}
+/*下划线*/
+.underLine{
+	border-bottom: 1px solid;
+	border-color: rgba(242, 242, 242, 1);
+}
+/*百分百宽度*/
+.width100per{
+	width: 100%;
+}
+/*行高*/
+.lineHeight45{
+	line-height: 45px;
+}
+.lineHeight40{
+	line-height: 40px;
+}
+/*p标签行距*/
+.plinedistance{
+	margin-bottom: 3px;
+}
+.float{
+	float: left;
+}
+/*ul ol none*/
+.clearUlStyle{
+	list-style: none;
+}
+/*display方式*/
+.inlineBlock{
+	display: inline-block;
+}
+.block{
+	display: block;
+}
+.inline{
+	display: inline;
+}
+/*热区蒙版*/
+.hotCover{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+.hotCoverColor{
+	background-color: rgba(51, 51, 51, 0.298039215686275);
+}
+/*提示框*/
+.alertSelfSet{
+	width: 50%;
+	height: 60px;
+	color: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -25%;
+	background-color: rgb(64,64,64);
+	border-radius: 10px;
+	padding: 20px;
+	display: none;
+}
+.alertSelfSet2{
+	width: 50%;
+	height: 60px;
+	color: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -25%;
+	background-color: rgb(64,64,64);
+	border-radius: 10px;
+	padding: 20px;
+	display: none;
+}
+.checkGoodsArrivedInfoBox{
+	width: 80%;
+	height: 136px;
+	color: #666666;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -40%;
+	margin-top: -68px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.349019607843137);
+	display: none;
+	z-index: 1;
+}
+/*
+ * 定位
+ */
+
+/*固定定位*/
+/*1.底部固定*/
+.fixedBottom{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+/*
+ * 隐藏
+ */
+/*溢出隐藏*/
+.hideOver{
+	overflow: hidden;
+}
+body[hotCoverState="show"] .hotCover{
+	display: block;
+}
+body[hotCoverState="show"] .alertSelfSet{
+	display: block;
+}
+body[hotCoverState="delayshow"] .alertSelfSet2{
+	display: block;
+}
+body[listState="show"] .alert_listQuitBox{
+	display: block;
+}
+body[checkState="show"] .checkGoodsArrivedInfoBox{
+	display: block;
+}
